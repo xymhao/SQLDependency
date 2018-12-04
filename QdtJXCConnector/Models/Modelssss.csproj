@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C5205E32-B148-44B2-86BF-6C298EB223FD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Models</RootNamespace>
+    <AssemblyName>Model</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HHModel\Base.cs" />
+    <Compile Include="HHModel\BaseDelete.cs" />
+    <Compile Include="HHModel\BaseID.cs" />
+    <Compile Include="HHModel\BType.cs" />
+    <Compile Include="HHModel\Dlyndx.cs" />
+    <Compile Include="HHModel\DlySale.cs" />
+    <Compile Include="HHModel\GraspcwZT.cs" />
+    <Compile Include="HHModel\LoginUser.cs" />
+    <Compile Include="HHModel\PType.cs" />
+    <Compile Include="HHModel\PTypeBarCode.cs" />
+    <Compile Include="HHModel\PTypeKPrice.cs" />
+    <Compile Include="HHModel\PTypePrice.cs" />
+    <Compile Include="HHModel\PTypeUnit.cs" />
+    <Compile Include="HHModel\P_PriceType.cs" />
+    <Compile Include="HHModel\Stock.cs" />
+    <Compile Include="HHModel\SysCon.cs" />
+    <Compile Include="HHModel\SystemBroker.cs" />
+    <Compile Include="HHModel\T_Right.cs" />
+    <Compile Include="Input\PTypeIn.cs" />
+    <Compile Include="Input\RightIn.cs" />
+    <Compile Include="PostInputValues\BaseInput.cs" />
+    <Compile Include="PostInputValues\BaseValuesIn.cs" />
+    <Compile Include="PostInputValues\BTypeDeleteIn.cs" />
+    <Compile Include="PostInputValues\DlyndxDeleteIn.cs" />
+    <Compile Include="PostInputValues\DlyndxIn.cs" />
+    <Compile Include="PostInputValues\PTypeDeleteIn.cs" />
+    <Compile Include="PostInputValues\StoreDeleteIn.cs" />
+    <Compile Include="PostInputValues\SysConIn.cs" />
+    <Compile Include="PostInputValues\TRightIn.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Utility\Utility.csproj">
+      <Project>{6848e6d9-ca35-4182-a850-d02b81b1e02c}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
