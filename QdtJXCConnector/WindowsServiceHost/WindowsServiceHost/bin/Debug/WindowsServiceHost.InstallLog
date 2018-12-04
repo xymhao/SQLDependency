@@ -1,0 +1,26 @@
+﻿正在安装程序集“D:\work\QdtXCC\QdtJXCConnector\WindowsServiceHost\WindowsServiceHost\bin\Debug\WindowsServiceHost.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = D:\work\QdtXCC\QdtJXCConnector\WindowsServiceHost\WindowsServiceHost\bin\Debug\WindowsServiceHost.InstallLog
+   assemblypath = D:\work\QdtXCC\QdtJXCConnector\WindowsServiceHost\WindowsServiceHost\bin\Debug\WindowsServiceHost.exe
+正在安装服务 QDTService01...
+正在日志 Application 中创建 EventLog 源 QDTService01...
+正在回滚程序集“D:\work\QdtXCC\QdtJXCConnector\WindowsServiceHost\WindowsServiceHost\bin\Debug\WindowsServiceHost.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = D:\work\QdtXCC\QdtJXCConnector\WindowsServiceHost\WindowsServiceHost\bin\Debug\WindowsServiceHost.InstallLog
+   assemblypath = D:\work\QdtXCC\QdtJXCConnector\WindowsServiceHost\WindowsServiceHost\bin\Debug\WindowsServiceHost.exe
+正在将事件日志还原到源 QDTService01 的前一状态。
+正在安装程序集“D:\work\QdtXCC\QdtJXCConnector\WindowsServiceHost\WindowsServiceHost\bin\Debug\WindowsServiceHost.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = D:\work\QdtXCC\QdtJXCConnector\WindowsServiceHost\WindowsServiceHost\bin\Debug\WindowsServiceHost.InstallLog
+   assemblypath = D:\work\QdtXCC\QdtJXCConnector\WindowsServiceHost\WindowsServiceHost\bin\Debug\WindowsServiceHost.exe
+正在安装服务 QDTService01...
+正在日志 Application 中创建 EventLog 源 QDTService01...
+正在回滚程序集“D:\work\QdtXCC\QdtJXCConnector\WindowsServiceHost\WindowsServiceHost\bin\Debug\WindowsServiceHost.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = D:\work\QdtXCC\QdtJXCConnector\WindowsServiceHost\WindowsServiceHost\bin\Debug\WindowsServiceHost.InstallLog
+   assemblypath = D:\work\QdtXCC\QdtJXCConnector\WindowsServiceHost\WindowsServiceHost\bin\Debug\WindowsServiceHost.exe
+正在将事件日志还原到源 QDTService01 的前一状态。

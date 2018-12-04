@@ -1,0 +1,14 @@
+D:\work\QdtXCC\QdtJXCConnector\Models\bin\Release\Models.dll
+D:\work\QdtXCC\QdtJXCConnector\Models\bin\Release\Models.pdb
+D:\work\QdtXCC\QdtJXCConnector\Models\bin\Release\Utility.dll
+D:\work\QdtXCC\QdtJXCConnector\Models\bin\Release\log4net.dll
+D:\work\QdtXCC\QdtJXCConnector\Models\bin\Release\Newtonsoft.Json.dll
+D:\work\QdtXCC\QdtJXCConnector\Models\bin\Release\Dapper.dll
+D:\work\QdtXCC\QdtJXCConnector\Models\bin\Release\Utility.pdb
+D:\work\QdtXCC\QdtJXCConnector\Models\bin\Release\log4net.xml
+D:\work\QdtXCC\QdtJXCConnector\Models\bin\Release\Newtonsoft.Json.xml
+D:\work\QdtXCC\QdtJXCConnector\Models\bin\Release\Dapper.xml
+D:\work\QdtXCC\QdtJXCConnector\Models\obj\Release\Models.csprojResolveAssemblyReference.cache
+D:\work\QdtXCC\QdtJXCConnector\Models\obj\Release\Models.csproj.CoreCompileInputs.cache
+D:\work\QdtXCC\QdtJXCConnector\Models\obj\Release\Models.dll
+D:\work\QdtXCC\QdtJXCConnector\Models\obj\Release\Models.pdb

@@ -1,0 +1,84 @@
+2018-02-05 11:10:03,274 ERROR TextInfo - 未能找到文件“D:\work\QdtXCC\QdtJXCConnector\QdtJXCConnector\bin\Release\favicon.ico”。
+2018-02-05 11:10:03,283 ERROR TextInfo -    在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   在 System.Drawing.Icon..ctor(String fileName, Int32 width, Int32 height)
+   在 System.Drawing.Icon..ctor(String fileName)
+   在 QdtJXCConnector.MainWindow..ctor() 位置 D:\work\QdtXCC\QdtJXCConnector\QdtJXCConnector\MainWindow.xaml.cs:行号 41
+2018-02-05 13:44:18,214 ERROR TextInfo - 未能找到文件“D:\work\QdtXCC\QdtJXCConnector\QdtJXCConnector\bin\Release\favicon.ico”。
+2018-02-05 13:44:18,223 ERROR TextInfo -    在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   在 System.Drawing.Icon..ctor(String fileName, Int32 width, Int32 height)
+   在 System.Drawing.Icon..ctor(String fileName)
+   在 QdtJXCConnector.MainWindow..ctor() 位置 D:\work\QdtXCC\QdtJXCConnector\QdtJXCConnector\MainWindow.xaml.cs:行号 41
+2018-02-05 13:44:55,828 ERROR TextInfo - InitListen:
+2018-02-05 13:44:55,829 ERROR TextInfo -    在 TableDependency.SqlClient.SqlTableDependency`1.CheckIfConnectionStringIsValid(String connectionString)
+   在 TableDependency.TableDependency`1..ctor(String connectionString, String tableName, IModelToTableMapper`1 mapper, IUpdateOfModel`1 updateOf, ITableDependencyFilter filter, DmlTriggerType dmlTriggerType, Boolean executeUserPermissionCheck)
+   在 TableDependency.SqlClient.SqlTableDependency`1..ctor(String connectionString, String tableName, IModelToTableMapper`1 mapper, IUpdateOfModel`1 updateOf, ITableDependencyFilter filter, DmlTriggerType notifyOn, Boolean executeUserPermissionCheck)
+   在 QdtJXCConnector.WCFListenService.Listening.LoginUserListen.InitListen(List`1 ls) 位置 D:\work\QdtXCC\QdtJXCConnector\QdtJXCConnector\WCFListenService\Listening\LoginUserListen.cs:行号 38
+2018-02-05 13:44:55,846 ERROR TextInfo - InitListen:
+2018-02-05 13:44:55,847 ERROR TextInfo -    在 TableDependency.SqlClient.SqlTableDependency`1.CheckIfConnectionStringIsValid(String connectionString)
+   在 TableDependency.TableDependency`1..ctor(String connectionString, String tableName, IModelToTableMapper`1 mapper, IUpdateOfModel`1 updateOf, ITableDependencyFilter filter, DmlTriggerType dmlTriggerType, Boolean executeUserPermissionCheck)
+   在 TableDependency.SqlClient.SqlTableDependency`1..ctor(String connectionString, String tableName, IModelToTableMapper`1 mapper, IUpdateOfModel`1 updateOf, ITableDependencyFilter filter, DmlTriggerType notifyOn, Boolean executeUserPermissionCheck)
+   在 QdtJXCConnector.WCFListenService.Listening.EmployeeListen.InitListen(List`1 ls) 位置 D:\work\QdtXCC\QdtJXCConnector\QdtJXCConnector\WCFListenService\Listening\EmployeeListen.cs:行号 49
+2018-02-05 13:44:55,861 ERROR TextInfo - InitListen:
+2018-02-05 13:44:55,861 ERROR TextInfo -    在 TableDependency.SqlClient.SqlTableDependency`1.CheckIfConnectionStringIsValid(String connectionString)
+   在 TableDependency.TableDependency`1..ctor(String connectionString, String tableName, IModelToTableMapper`1 mapper, IUpdateOfModel`1 updateOf, ITableDependencyFilter filter, DmlTriggerType dmlTriggerType, Boolean executeUserPermissionCheck)
+   在 TableDependency.SqlClient.SqlTableDependency`1..ctor(String connectionString, String tableName, IModelToTableMapper`1 mapper, IUpdateOfModel`1 updateOf, ITableDependencyFilter filter, DmlTriggerType notifyOn, Boolean executeUserPermissionCheck)
+   在 QdtJXCConnector.WCFListenService.Listening.BTypeListen.InitListen(List`1 ls) 位置 D:\work\QdtXCC\QdtJXCConnector\QdtJXCConnector\WCFListenService\Listening\BTypeListen.cs:行号 41
+2018-02-05 13:44:55,876 ERROR TextInfo - InitListen:
+2018-02-05 13:44:55,876 ERROR TextInfo -    在 TableDependency.SqlClient.SqlTableDependency`1.CheckIfConnectionStringIsValid(String connectionString)
+   在 TableDependency.TableDependency`1..ctor(String connectionString, String tableName, IModelToTableMapper`1 mapper, IUpdateOfModel`1 updateOf, ITableDependencyFilter filter, DmlTriggerType dmlTriggerType, Boolean executeUserPermissionCheck)
+   在 TableDependency.SqlClient.SqlTableDependency`1..ctor(String connectionString, String tableName, IModelToTableMapper`1 mapper, IUpdateOfModel`1 updateOf, ITableDependencyFilter filter, DmlTriggerType notifyOn, Boolean executeUserPermissionCheck)
+   在 QdtJXCConnector.WCFListenService.Listening.StockListen.InitListen(List`1 ls) 位置 D:\work\QdtXCC\QdtJXCConnector\QdtJXCConnector\WCFListenService\Listening\StockListen.cs:行号 39
+2018-02-05 13:44:55,890 ERROR TextInfo - InitListen:
+2018-02-05 13:44:55,891 ERROR TextInfo -    在 TableDependency.SqlClient.SqlTableDependency`1.CheckIfConnectionStringIsValid(String connectionString)
+   在 TableDependency.TableDependency`1..ctor(String connectionString, String tableName, IModelToTableMapper`1 mapper, IUpdateOfModel`1 updateOf, ITableDependencyFilter filter, DmlTriggerType dmlTriggerType, Boolean executeUserPermissionCheck)
+   在 TableDependency.SqlClient.SqlTableDependency`1..ctor(String connectionString, String tableName, IModelToTableMapper`1 mapper, IUpdateOfModel`1 updateOf, ITableDependencyFilter filter, DmlTriggerType notifyOn, Boolean executeUserPermissionCheck)
+   在 QdtJXCConnector.WCFListenService.Listening.P_PriceTypeListen.InitListen(List`1 ls) 位置 D:\work\QdtXCC\QdtJXCConnector\QdtJXCConnector\WCFListenService\Listening\P_PriceTypeListen.cs:行号 41
+2018-02-05 13:44:55,906 ERROR TextInfo - InitListen:
+2018-02-05 13:44:55,907 ERROR TextInfo -    在 TableDependency.SqlClient.SqlTableDependency`1.CheckIfConnectionStringIsValid(String connectionString)
+   在 TableDependency.TableDependency`1..ctor(String connectionString, String tableName, IModelToTableMapper`1 mapper, IUpdateOfModel`1 updateOf, ITableDependencyFilter filter, DmlTriggerType dmlTriggerType, Boolean executeUserPermissionCheck)
+   在 TableDependency.SqlClient.SqlTableDependency`1..ctor(String connectionString, String tableName, IModelToTableMapper`1 mapper, IUpdateOfModel`1 updateOf, ITableDependencyFilter filter, DmlTriggerType notifyOn, Boolean executeUserPermissionCheck)
+   在 QdtJXCConnector.WCFListenService.Listening.PTypeListen.InitListen(List`1 ls) 位置 D:\work\QdtXCC\QdtJXCConnector\QdtJXCConnector\WCFListenService\Listening\PTypeListen.cs:行号 39
+2018-02-05 13:44:55,925 ERROR TextInfo - InitListen:
+2018-02-05 13:44:55,925 ERROR TextInfo -    在 TableDependency.SqlClient.SqlTableDependency`1.CheckIfConnectionStringIsValid(String connectionString)
+   在 TableDependency.TableDependency`1..ctor(String connectionString, String tableName, IModelToTableMapper`1 mapper, IUpdateOfModel`1 updateOf, ITableDependencyFilter filter, DmlTriggerType dmlTriggerType, Boolean executeUserPermissionCheck)
+   在 TableDependency.SqlClient.SqlTableDependency`1..ctor(String connectionString, String tableName, IModelToTableMapper`1 mapper, IUpdateOfModel`1 updateOf, ITableDependencyFilter filter, DmlTriggerType notifyOn, Boolean executeUserPermissionCheck)
+   在 QdtJXCConnector.WCFListenService.Listening.PTypePriceListen.InitListen(List`1 ls) 位置 D:\work\QdtXCC\QdtJXCConnector\QdtJXCConnector\WCFListenService\Listening\PTypePriceListen.cs:行号 64
+2018-02-05 13:44:55,940 ERROR TextInfo - InitListen:
+2018-02-05 13:44:55,940 ERROR TextInfo -    在 TableDependency.SqlClient.SqlTableDependency`1.CheckIfConnectionStringIsValid(String connectionString)
+   在 TableDependency.TableDependency`1..ctor(String connectionString, String tableName, IModelToTableMapper`1 mapper, IUpdateOfModel`1 updateOf, ITableDependencyFilter filter, DmlTriggerType dmlTriggerType, Boolean executeUserPermissionCheck)
+   在 TableDependency.SqlClient.SqlTableDependency`1..ctor(String connectionString, String tableName, IModelToTableMapper`1 mapper, IUpdateOfModel`1 updateOf, ITableDependencyFilter filter, DmlTriggerType notifyOn, Boolean executeUserPermissionCheck)
+   在 QdtJXCConnector.WCFListenService.Listening.PTypeKPriceListen.InitListen(List`1 ls) 位置 D:\work\QdtXCC\QdtJXCConnector\QdtJXCConnector\WCFListenService\Listening\PTypeKPriceListen.cs:行号 39
+2018-02-05 13:44:55,959 ERROR TextInfo - InitListen:
+2018-02-05 13:44:55,959 ERROR TextInfo -    在 TableDependency.SqlClient.SqlTableDependency`1.CheckIfConnectionStringIsValid(String connectionString)
+   在 TableDependency.TableDependency`1..ctor(String connectionString, String tableName, IModelToTableMapper`1 mapper, IUpdateOfModel`1 updateOf, ITableDependencyFilter filter, DmlTriggerType dmlTriggerType, Boolean executeUserPermissionCheck)
+   在 TableDependency.SqlClient.SqlTableDependency`1..ctor(String connectionString, String tableName, IModelToTableMapper`1 mapper, IUpdateOfModel`1 updateOf, ITableDependencyFilter filter, DmlTriggerType notifyOn, Boolean executeUserPermissionCheck)
+   在 QdtJXCConnector.WCFListenService.Listening.PTypeUnitListen.InitListen(List`1 ls) 位置 D:\work\QdtXCC\QdtJXCConnector\QdtJXCConnector\WCFListenService\Listening\PTypeUnitListen.cs:行号 37
+2018-02-05 13:44:56,003 ERROR TextInfo - InitListen:
+2018-02-05 13:44:56,003 ERROR TextInfo -    在 TableDependency.SqlClient.SqlTableDependency`1.CheckIfConnectionStringIsValid(String connectionString)
+   在 TableDependency.TableDependency`1..ctor(String connectionString, String tableName, IModelToTableMapper`1 mapper, IUpdateOfModel`1 updateOf, ITableDependencyFilter filter, DmlTriggerType dmlTriggerType, Boolean executeUserPermissionCheck)
+   在 TableDependency.SqlClient.SqlTableDependency`1..ctor(String connectionString, String tableName, IModelToTableMapper`1 mapper, IUpdateOfModel`1 updateOf, ITableDependencyFilter filter, DmlTriggerType notifyOn, Boolean executeUserPermissionCheck)
+   在 QdtJXCConnector.WCFListenService.Listening.PTypeBarCodeListen.InitListen(List`1 ls) 位置 D:\work\QdtXCC\QdtJXCConnector\QdtJXCConnector\WCFListenService\Listening\PTypeBarCodeListen.cs:行号 79
+2018-02-05 13:44:56,017 ERROR TextInfo - InitListen:
+2018-02-05 13:44:56,018 ERROR TextInfo -    在 TableDependency.SqlClient.SqlTableDependency`1.CheckIfConnectionStringIsValid(String connectionString)
+   在 TableDependency.TableDependency`1..ctor(String connectionString, String tableName, IModelToTableMapper`1 mapper, IUpdateOfModel`1 updateOf, ITableDependencyFilter filter, DmlTriggerType dmlTriggerType, Boolean executeUserPermissionCheck)
+   在 TableDependency.SqlClient.SqlTableDependency`1..ctor(String connectionString, String tableName, IModelToTableMapper`1 mapper, IUpdateOfModel`1 updateOf, ITableDependencyFilter filter, DmlTriggerType notifyOn, Boolean executeUserPermissionCheck)
+   在 QdtJXCConnector.WCFListenService.Listening.PriceRightListen.InitListen(List`1 ls) 位置 D:\work\QdtXCC\QdtJXCConnector\QdtJXCConnector\WCFListenService\Listening\PriceRightListen.cs:行号 38
+2018-02-05 13:44:56,034 ERROR TextInfo - InitListen:
+2018-02-05 13:44:56,034 ERROR TextInfo -    在 TableDependency.SqlClient.SqlTableDependency`1.CheckIfConnectionStringIsValid(String connectionString)
+   在 TableDependency.TableDependency`1..ctor(String connectionString, String tableName, IModelToTableMapper`1 mapper, IUpdateOfModel`1 updateOf, ITableDependencyFilter filter, DmlTriggerType dmlTriggerType, Boolean executeUserPermissionCheck)
+   在 TableDependency.SqlClient.SqlTableDependency`1..ctor(String connectionString, String tableName, IModelToTableMapper`1 mapper, IUpdateOfModel`1 updateOf, ITableDependencyFilter filter, DmlTriggerType notifyOn, Boolean executeUserPermissionCheck)
+   在 QdtJXCConnector.WCFListenService.Listening.SysConListen.InitListen(List`1 ls) 位置 D:\work\QdtXCC\QdtJXCConnector\QdtJXCConnector\WCFListenService\Listening\SysConListen.cs:行号 69
+2018-02-05 13:44:56,048 ERROR TextInfo - InitListen:
+2018-02-05 13:44:56,048 ERROR TextInfo -    在 TableDependency.SqlClient.SqlTableDependency`1.CheckIfConnectionStringIsValid(String connectionString)
+   在 TableDependency.TableDependency`1..ctor(String connectionString, String tableName, IModelToTableMapper`1 mapper, IUpdateOfModel`1 updateOf, ITableDependencyFilter filter, DmlTriggerType dmlTriggerType, Boolean executeUserPermissionCheck)
+   在 TableDependency.SqlClient.SqlTableDependency`1..ctor(String connectionString, String tableName, IModelToTableMapper`1 mapper, IUpdateOfModel`1 updateOf, ITableDependencyFilter filter, DmlTriggerType notifyOn, Boolean executeUserPermissionCheck)
+   在 QdtJXCConnector.WCFListenService.Listening.KRightListen.InitListen(List`1 ls) 位置 D:\work\QdtXCC\QdtJXCConnector\QdtJXCConnector\WCFListenService\Listening\KRightListen.cs:行号 39
+2018-02-05 13:44:56,061 ERROR TextInfo - InitListen:
+2018-02-05 13:44:56,061 ERROR TextInfo -    在 TableDependency.SqlClient.SqlTableDependency`1.CheckIfConnectionStringIsValid(String connectionString)
+   在 TableDependency.TableDependency`1..ctor(String connectionString, String tableName, IModelToTableMapper`1 mapper, IUpdateOfModel`1 updateOf, ITableDependencyFilter filter, DmlTriggerType dmlTriggerType, Boolean executeUserPermissionCheck)
+   在 TableDependency.SqlClient.SqlTableDependency`1..ctor(String connectionString, String tableName, IModelToTableMapper`1 mapper, IUpdateOfModel`1 updateOf, ITableDependencyFilter filter, DmlTriggerType notifyOn, Boolean executeUserPermissionCheck)
+   在 QdtJXCConnector.WCFListenService.Listening.PRightListen.InitListen(List`1 ls) 位置 D:\work\QdtXCC\QdtJXCConnector\QdtJXCConnector\WCFListenService\Listening\PRightListen.cs:行号 37
